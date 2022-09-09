@@ -1,0 +1,74 @@
+.Menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(250, 158, 204);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Menu .logo a img{
+    width:190px;
+}
+.Enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.Enlaces ul li{
+    margin-right: 10px;
+}
+.Enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+}
+.Enlaces ul li a:hover{
+    border-bottom:1PX solid black;
+    color: black;
+}
+.iconos i,
+.iconos svg{
+    margin-right: 5px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10PX;
+    padding: 5px 5px;
+
+}
+.iconos i:hover,
+.iconos svg:hover{
+    color: crimson;
+    background-color: aqua;
+}
+/*estilos principal*/
+.principal{
+    width: 100%;
+    height: 700px;
+    background-image: url(../Imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: center;
+}
+.principal .con-texto{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(238, 193, 240);
+    text-align: center;
+}
+.principal .con-texto h1{
+    font-size: 50px;
+    color: blacks;
+}
+.principal .con-texto p{
+    font-size: 20px;
+    color: fuchsia;
+}
+.principal .con-texto a{
+    font-size: 20px;
+    color: rgb(255, 4, 4);
+    background-color: black;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
